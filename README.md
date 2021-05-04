@@ -1,8 +1,8 @@
 # JumpPhotoshoot
 
 AI-Inspired Jump Photoshoot with Body Movement Dynamics
-本作品基於人工智慧人體動作分析技術之跳躍照片產生系統，對每張Jetson Nano所拍攝的照片，利用人工智慧之人像偵測技術，偵測出每位拍攝對象的跳躍軌跡後，並對其做動作分析，即可達到自動化的捕捉全體拍攝對象於最高點之跳躍照片。
 
+本作品基於人工智慧人體動作分析技術之跳躍照片產生系統，對每張Jetson Nano所拍攝的照片，利用人工智慧之人像偵測技術，偵測出每位拍攝對象的跳躍軌跡後，並對其做動作分析，即可達到自動化的捕捉全體拍攝對象於最高點之跳躍照片。
 
 <p align="center">
   <img width=500 src="https://github.com/bigmms/JumpPhotoshoot/blob/main/img/yolo_jump.gif" alt="JumpPhotoshoot">
@@ -13,7 +13,6 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
 
 ## 目錄
 * [硬體需求](#硬體需求)
-* [環境需求](#環境需求)
 * [開始使用](#開始使用)
 * [參考網站](#參考網站)
 
@@ -23,29 +22,36 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
   <img width=800 src="https://github.com/bigmms/JumpPhotoshoot/blob/main/img/hardware_equipment.png" alt="JumpPhotoshoot">
 </p>
 
-## 環境需求
-
-* OpenCV 4.4.0 (4.2.0 以上)
-* Jetson.GPIO 2.0.11
-* Numpy 1.13.3 
 
 ## 開始使用
 
   ### 1. 設定 Jetson nano
+    
+  * 安裝Jetson Nano。先下載官方的[映像檔](https://developer.nvidia.com/embedded/downloads)，解壓縮後使用映像檔燒錄軟體[(Win32 Disk Imager)]   (https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中，
+    * 若SD卡已使用過，先格式化，可參考[這裡](https://blog.csdn.net/u011119817/article/details/106946176)。
   
-  
+  * 
+    
   
   ### 1. 安裝硬體
   
   ### 2. 設定網路卡
   
   ### 3. 安裝 Opencv
-  
+    
   
   ### 執行程式
   
+  下載程式
+    
     git clone https://github.com/bigmms/JumpPhotoshoot
+    
+  進入資料夾
+  
     cd JumpPhotoshoot
+  
+  執行程式
+  
     python3 main.py
 
 ## 參考網站
