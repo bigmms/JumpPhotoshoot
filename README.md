@@ -32,11 +32,11 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
 
   ### 1. 安裝 Jetson nano
   
-  ### 1. 安裝硬體
+  ### 2. 安裝硬體
   
-  ### 2. 設定網路卡
+  ### 3. 設定網路卡
   
-  ### 3. 安裝 Opencv
+  ### 4. 安裝 Opencv
   
   ### 執行程式
     ``` sh
