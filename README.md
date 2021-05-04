@@ -9,7 +9,8 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
 </p>
 
 ## 特色
-本作品兼具自動化、精準、與快速，三大特色。系統開始時，會自動偵測拍攝對象位置，並於拍攝對象準備好後，自動開始拍攝，因此，在只有一個人的情況下，也可以拍攝跳躍照片，並快速且精準的的到最高點之跳躍照片。如此一來，對於所有跳躍照片的拍攝者來說，透過本作品，都可以輕鬆的拍攝出高品質的跳躍照片。
+本作品兼具以下
+* 自動化、精準、與快速，三大特色。系統開始時，會自動偵測拍攝對象位置，並於拍攝對象準備好後，自動開始拍攝，因此，在只有一個人的情況下，也可以拍攝跳躍照片，並快速且精準的的到最高點之跳躍照片。如此一來，對於所有跳躍照片的拍攝者來說，透過本作品，都可以輕鬆的拍攝出高品質的跳躍照片。
 
 ## 目錄
 * [硬體需求](#硬體需求)
@@ -17,6 +18,12 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
 * [參考網站](#參考網站)
 
 ## 硬體需求
+
+* Nvidia Jetson Nano
+* Micro SD卡
+* 網路介面卡(EW-7811Unv2)
+* 攝影機(Pi Camera)
+* LED模組
 
 <p align="center">
   <img width=800 src="https://github.com/bigmms/JumpPhotoshoot/blob/main/img/hardware_equipment.png" alt="JumpPhotoshoot">
@@ -27,13 +34,14 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
 
   ### 1. 設定 Jetson nano
     
-  * 安裝Jetson Nano。先下載官方的[映像檔](https://developer.nvidia.com/embedded/downloads)，解壓縮後使用映像檔燒錄軟體[(Win32 Disk Imager)](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。若須更詳細的安裝步驟，可[參考官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與這裡(https://www.rs-online.com/designspark/jetson-nano-1-cn)。
+  * 安裝Jetson Nano。先下載官方的[映像檔](https://developer.nvidia.com/embedded/downloads)，解壓縮後使用映像檔燒錄軟體[(Win32 Disk Imager)](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。若須更詳細的安裝步驟，可[參考官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與[這裡](https://www.rs-online.com/designspark/jetson-nano-1-cn)。
   
     * 若SD卡已使用過，必須先格式化，可參考[這裡](https://blog.csdn.net/u011119817/article/details/106946176)。
   
   ### 1. 硬體接腳圖
   
   * 根據下圖，接上設備硬體。
+  
     <p align="center">
       <img width=800 src="" alt="硬體接腳圖">
     </p>
@@ -46,10 +54,16 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
   ### 3. 設定環境
   
   * 安裝環境
-    * 在這份程式當中，因
     
-  * 安裝 OpenCV (因必須使用 4.2.0 以上版本)
-    * 
+        pip install -r requirements.txt
+      
+    
+  * 按[這裡](https://github.com/mdegans/nano_build_opencv)下載OpenCV
+  * 執行以下程式碼，安裝。
+  
+        ./build_opencv.sh
+        
+      * (必須使用 4.2.0 以上版本)
   
   ### 執行程式
   
