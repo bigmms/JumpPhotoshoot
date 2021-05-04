@@ -29,17 +29,27 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
     
   * 安裝Jetson Nano。先下載官方的[映像檔](https://developer.nvidia.com/embedded/downloads)，解壓縮後使用映像檔燒錄軟體[(Win32 Disk Imager)](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。若須更詳細的安裝步驟，可[參考官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與這裡(https://www.rs-online.com/designspark/jetson-nano-1-cn)。
   
-    * 若SD卡已使用過，先格式化，可參考[這裡](https://blog.csdn.net/u011119817/article/details/106946176)。
+    * 若SD卡已使用過，必須先格式化，可參考[這裡](https://blog.csdn.net/u011119817/article/details/106946176)。
   
-  * 
+  ### 1. 硬體接腳圖
+  
+  * 根據下圖，接上設備硬體。
+    <p align="center">
+      <img width=800 src="" alt="硬體接腳圖">
+    </p>
     
+  ### 2. 設定網路卡(根據網路卡)
   
-  ### 1. 安裝硬體
   
-  ### 2. 設定網路卡
-  
-  ### 3. 安裝 Opencv
     
+    
+  ### 3. 設定環境
+  
+  * 安裝環境
+    * 在這份程式當中，因
+    
+  * 安裝 OpenCV (因必須使用 4.2.0 以上版本)
+    * 
   
   ### 執行程式
   
@@ -64,3 +74,5 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
 [Jetson Download Center](https://developer.nvidia.com/embedded/downloads)
 
 [【 Tools 】NVIDIA® Jetson AGX Xavier 安裝 EDIMAX EW-7811Un V2 無線網卡](https://learningsky.io/tools-nvidia-jetson-agx-xavier-install-edimax-ew-7811un-v2-wifi/)
+
+[【Jetson-Nano】SD卡重新格式化](https://blog.csdn.net/u011119817/article/details/106946176)
