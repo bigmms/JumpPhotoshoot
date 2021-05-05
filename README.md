@@ -73,7 +73,7 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
         
         python3
         import cv2
-        print(cv2.__version__) // 4.4.0
+        cv2.__version__ // 4.4.0
         
   ### 執行程式
   
