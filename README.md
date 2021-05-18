@@ -25,9 +25,9 @@ With our works, All photographer who cature jumping image can easily get the hig
 <!-- ## 目錄 -->
 ## Content
 
-* [HardwareRequirement](HardwareRequirement)
-* [GettingStart](GettingStart)
-* [Reference](Reference)
+* [HardwareRequirement](##HardwareRequirement)
+* [GettingStart](##GettingStart)
+* [Reference](##Reference)
 
 <!-- ## 硬體需求 -->
 ## HardwareRequirement
