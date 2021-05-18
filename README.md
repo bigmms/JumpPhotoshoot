@@ -8,24 +8,25 @@ AI-Inspired Jump Photoshoot , by using human detection of artificial intelligenc
 
 ## Features <!--##本作品特色 -->
 
-Our works have the following three feature:
-* ***Automatic System***：Without others to triger the shutter, everyone can take the jumping image by himself/herself .
-* ***Rapidly Obtain***：In the period of time, the photographer can get the jumping image.
-* ***Percisely Select***： AI-Inspired Jump Photo shoot percisely pick up the highest jumping image.
+Our works have the following 3 feature:
+  * ***Automatic System***：Without others to triger the shutter, everyone can take the jumping image by himself/herself .
+  * ***Rapidly Obtain***：In the period of time, the photographer can get the jumping image.
+  * ***Percisely Select***： AI-Inspired Jump Photo shoot percisely pick up the highest jumping image.
+
 With our works, All photographer who cature jumping image can easily get the high quality jumping image.
 
-## Content <!-- ## 目錄 -->
+<!-- ## Content <!-- ## 目錄 -->
 
-* [HardwareRequirement](#Hardware Requirement)
+<!-- * [HardwareRequirement](#Hardware Requirement)
 * [GettingStart](#Getting Start)
-* [Reference](##Reference)
+* [Reference](##Reference) -->
 
-## Hardware Requirement<!--##硬體需求 -->
+## Hardware Requirement
 
   * Nvidia Jetson Nano
   * Micro SD Card
   * Network Interface Card(EW-7811Unv2)<!--   * 網路介面卡(EW-7811Unv2) -->
-  * cmaera(Pi Camera) <!--   * 攝影機(Pi Camera) -->
+  * Camera(Pi Camera) <!--   * 攝影機(Pi Camera) -->
   * LED Module <!--* LED模組 -->
 
   <p align="center">
@@ -40,7 +41,7 @@ With our works, All photographer who cature jumping image can easily get the hig
 <!--   * 安裝Jetson Nano。先下載官方的[映像檔]，解壓縮後使用[映像檔燒錄軟體](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。 -->
   * 若須更詳細的安裝步驟，可參考[官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與[這裡](https://www.rs-online.com/designspark/jetson-nano-1-cn)。
   
-    * 若SD卡已使用過，必須先進行[格式化](https://blog.csdn.net/u011119817/article/details/106946176)。
+  * 若SD卡已使用過，必須先進行[格式化](https://blog.csdn.net/u011119817/article/details/106946176)。
   
   ### Setup Hardware
   
