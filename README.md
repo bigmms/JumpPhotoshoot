@@ -42,7 +42,7 @@ With our works, All photographer who cature jumping image can easily get the hig
   * 若須更詳細的安裝步驟，可參考[官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與[這裡](https://www.rs-online.com/designspark/jetson-nano-1-cn)。
   
   * 若SD卡已使用過，必須先進行[格式化](https://blog.csdn.net/u011119817/article/details/106946176)。
-  
+  * If SD card has b
   ### Setup Hardware
   
   * 根據以下硬體接腳圖，安裝設備硬體。
