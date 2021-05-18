@@ -1,50 +1,61 @@
-# JumpPhotoshoot
+# AI-Inspired Jump Photoshoot
 
-AI-Inspired Jump Photoshoot with Body Movement Dynamics
+AI-Inspired Jump Photoshoot , by using human detection of artificial intelligence technology, detecting every people who are being photographed to get the jumping track. Next, our works use detection analysis to analysis the track to acheive automatically capture the image that people being photographed at the highest point.
 
-本作品基於人工智慧人體動作分析技術之跳躍照片產生系統，利用人工智慧之人像偵測技術，偵測出每位拍攝對象的跳躍軌跡後，並對其做動作分析，達到自動化的捕捉全體拍攝對象於最高點之跳躍照片。
+<!-- 本作品基於人工智慧人體動作分析技術之跳躍照片產生系統，利用人工智慧之人像偵測技術，偵測出每位拍攝對象的跳躍軌跡後，並對其做動作分析，達到自動化的捕捉全體拍攝對象於最高點之跳躍照片。 -->
 
 <p align="center">
   <img width=500 src="https://github.com/bigmms/JumpPhotoshoot/blob/main/img/yolo_jump.gif" alt="JumpPhotoshoot">
 </p>
 
-## 本作品特色
+<!-- ## 本作品特色 -->
+## Features
 
-本作品兼具以下三項特色：
-* ***自動化系統***：不須有人按下快門，即可完成拍攝。
-* ***快速獲得照片***：在短時間內獲取跳躍照片。
-* ***精準選取***：精準挑選出最高點之跳躍照片。
+Our works have the following three feature:
+<!-- 本作品兼具以下三項特色： -->
+<!-- * ***自動化系統***：不須有人按下快門，即可完成拍攝。 -->
+* ***Automatic System***：Without others to triger the shutter, everyone can take the jumping image by himself/herself .
+<!-- * ***快速獲得照片***：在短時間內獲取跳躍照片。. -->
+* ***Rapidly Obtain***：In the period of time, the photographer can get the jumping image.
+<!-- * ***精準選取***：精準挑選出最高點之跳躍照片。 -->
+* ***Percisely Select***： AI-Inspired Jump Photo shoot percisely pick up the highest jumping image.
 
-對於所有跳躍照片的拍攝者來說，透過本作品，都可以輕鬆的拍攝出高品質的跳躍照片。
+<!-- 對於所有跳躍照片的拍攝者來說，透過本作品，都可以輕鬆的拍攝出高品質的跳躍照片。 -->
+With our works, All photographer who cature jumping image can easily get the high quality jumping image.
+<!-- ## 目錄 -->
+## Content
 
-## 目錄
-* [硬體需求](#硬體需求)
-* [開始使用](#開始使用)
-* [參考網站](#參考網站)
+* [HardwareRequirement](HardwareRequirement)
+* [GettingStart](GettingStart)
+* [Reference](Reference)
 
-## 硬體需求
+<!-- ## 硬體需求 -->
+## HardwareRequirement
 
-* Nvidia Jetson Nano
-* Micro SD卡
-* 網路介面卡(EW-7811Unv2)
-* 攝影機(Pi Camera)
-* LED模組
+  * Nvidia Jetson Nano
+  * Micro SD卡
+  * 網路介面卡(EW-7811Unv2)
+  * 攝影機(Pi Camera)
+  * LED模組
 
-<p align="center">
-  <img width=800 src="https://github.com/bigmms/JumpPhotoshoot/blob/main/img/hardware_equipment.png" alt="JumpPhotoshoot">
-</p>
+  <p align="center">
+    <img width=800 src="https://github.com/bigmms/JumpPhotoshoot/blob/main/img/hardware_equipment.png" alt="JumpPhotoshoot">
+  </p>
 
 
-## 開始使用
+  <!-- ## 開始使用 -->
+## GettingStart
 
-  ### 1. 安裝 Jetson nano 
+<!--   ### 1. 安裝 Jetson nano  -->
+  ### Setup Jetson Nano
     
   * 安裝Jetson Nano。先下載官方的[映像檔](https://developer.nvidia.com/embedded/downloads)，解壓縮後使用[映像檔燒錄軟體](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。
   * 若須更詳細的安裝步驟，可參考[官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與[這裡](https://www.rs-online.com/designspark/jetson-nano-1-cn)。
   
     * 若SD卡已使用過，必須先進行[格式化](https://blog.csdn.net/u011119817/article/details/106946176)。
   
-  ### 2. 安裝硬體
+<!--   ### 2. 安裝硬體 -->
+  ### Setup Hardware
   
   * 根據以下硬體接腳圖，安裝設備硬體。
   
@@ -52,12 +63,14 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
       <img width=800 src="" alt="硬體接腳圖">
     </p>
     
-  ### 3. 設定網路卡(可選)
+  ### Setup The Internet(if you use EW-7811Unv2)
+  
   
   
     
     
-  ### 3. 設定環境
+<!--   ### 3. 設定環境 -->
+  ### Setup enviroment
   
   * 安裝環境
         pip install -r requirements.txt
@@ -75,21 +88,26 @@ AI-Inspired Jump Photoshoot with Body Movement Dynamics
         import cv2
         cv2.__version__ // 4.4.0
         
-  ### 執行程式
+<!--   ### 執行程式 -->
+  ### Execute the program
   
-  下載程式
+<!--   下載程式 -->
+  * Download
     
     git clone https://github.com/bigmms/JumpPhotoshoot
     
-  進入資料夾
+<!--   進入資料夾 -->
+  * Get into the Floder
   
     cd JumpPhotoshoot
   
-  執行程式
+<!--   執行程式 -->
+  * Run the main.py
   
     python3 main.py
 
-## 參考網站
+<!-- ## 參考網站 -->
+## Reference
 
 [mdegans/nano_build_opencv](https://github.com/mdegans/nano_build_opencv)
 
