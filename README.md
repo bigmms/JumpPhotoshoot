@@ -36,7 +36,8 @@ With our works, All photographer who cature jumping image can easily get the hig
 
   ### Setup Jetson Nano
     
-  * 安裝Jetson Nano。先下載官方的[映像檔](https://developer.nvidia.com/embedded/downloads)，解壓縮後使用[映像檔燒錄軟體](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。
+  * First of all, Setup Jetson Nano. Download the official [image file](https://developer.nvidia.com/embedded/downloads). Using the 
+<!--   * 安裝Jetson Nano。先下載官方的[映像檔]，解壓縮後使用[映像檔燒錄軟體](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。 -->
   * 若須更詳細的安裝步驟，可參考[官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與[這裡](https://www.rs-online.com/designspark/jetson-nano-1-cn)。
   
     * 若SD卡已使用過，必須先進行[格式化](https://blog.csdn.net/u011119817/article/details/106946176)。
@@ -55,35 +56,37 @@ With our works, All photographer who cature jumping image can easily get the hig
   
   ### Setup enviroment
   
-  * 安裝環境
+  * install the enviroment
           
           pip install -r requirements.txt
       
-  * 按[這裡](https://github.com/mdegans/nano_build_opencv)下載OpenCV安裝檔。
-  * 解壓縮後，至該目錄資料夾，執行以下程式碼，進行安裝。
+  * download & install the OpenCv.(if your OpenCv <= 4.2.0)
+    
+          //download
+          git clone https://github.com/bigmms/JumpPhotoshoot
+          
+          //get into folder
+          cd JumpPhotoshoot
+          
+          //install
+          ./build_opencv.sh
   
-        ./build_opencv.sh
-        
-      * (OpenCv必須使用 4.2.0 以上版本)
   
-  * 可執行以下程式確認OpenCv版本
+  * You can check the OpenCv version by following code:
         
         python3
         import cv2
         cv2.__version__ // 4.4.0
         
   ### Execute the program
-  
-  * Download
-        
+      
+        //download
         git clone https://github.com/bigmms/JumpPhotoshoot
     
-  * Get into the Floder
-  
+        //get into folder
         cd JumpPhotoshoot
         
-  * Run the main.py
-  
+        //install
         python3 main.py
 
 ## Reference
