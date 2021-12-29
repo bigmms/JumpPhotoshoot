@@ -47,10 +47,6 @@ With our works, All photographer who cature jumping image can easily get the hig
     <p align="center">
       <img width=800 src="" alt="硬體接腳圖">
     </p>
-    
-  ### Setup The Internet(if you use EW-7811Unv2)
-  
-  
   
   ### Setup enviroment
   
