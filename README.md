@@ -37,15 +37,12 @@ With our works, All photographer who cature jumping image can easily get the hig
 
   ### Setup Jetson Nano
     
-  * First of all, Setup Jetson Nano. Download the official [image file](https://developer.nvidia.com/embedded/downloads). Using the 
-<!--   * 安裝Jetson Nano。先下載官方的[映像檔]，解壓縮後使用[映像檔燒錄軟體](https://sourceforge.net/projects/win32diskimager/)，將其燒錄至SD卡當中。 -->
-  * 若須更詳細的安裝步驟，可參考[官網安裝手冊](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)，與[這裡](https://www.rs-online.com/designspark/jetson-nano-1-cn)。
-  
-  * 若SD卡已使用過，必須先進行[格式化](https://blog.csdn.net/u011119817/article/details/106946176)。
-  * If SD card has b
+  * First of all, Setup Jetson Nano. Download the official [image file](https://developer.nvidia.com/embedded/downloads). Then, Using the [win32diskimager](https://sourceforge.net/projects/win32diskimager/) to write into the SD card.
+  * Finding the more detail installation step from [official website](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write) and [here](https://www.rs-online.com/designspark/jetson-nano-1-cn)
+  * If the SD card has been uesd, you must [format](https://blog.csdn.net/u011119817/article/details/106946176) it.
   ### Setup Hardware
   
-  * 根據以下硬體接腳圖，安裝設備硬體。
+  * According to the figure , intalling the hardware
   
     <p align="center">
       <img width=800 src="" alt="硬體接腳圖">
