@@ -61,10 +61,10 @@ With our works, All photographer who cature jumping image can easily get the hig
   * download & install the OpenCv.(if your OpenCv <= 4.2.0)
     
           //download
-          git clone https://github.com/bigmms/JumpPhotoshoot
+          git clone https://github.com/mdegans/nano_build_opencv
           
           //get into folder
-          cd JumpPhotoshoot
+          cd nano_build_opencv
           
           //install
           ./build_opencv.sh
