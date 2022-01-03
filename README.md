@@ -40,14 +40,7 @@ With our works, All photographer who cature jumping image can easily get the hig
   * First of all, Setup Jetson Nano. Download the official [image file](https://developer.nvidia.com/embedded/downloads). Then, Using the [win32diskimager](https://sourceforge.net/projects/win32diskimager/) to write into the SD card.
   * Finding the more detail installation step from [official website](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write) and [here](https://www.rs-online.com/designspark/jetson-nano-1-cn)
   * If the SD card has been uesd, you must [format](https://blog.csdn.net/u011119817/article/details/106946176) it.
-  ### Setup Hardware
-  
-  * According to the figure , intalling the hardware
-  
-    <p align="center">
-      <img width=800 src="" alt="硬體接腳圖">
-    </p>
-  
+
   ### Setup enviroment
   
   * install the enviroment
